@@ -78,11 +78,7 @@ The tension about the current war between Russia and Ukraine unfortunately is al
 <p>
   <br/>
 </p>
-<p>Virus Definition Update required for the following scanners, since HermeticWiper can be caught by them already</p>
-<ul style="list-style-type: square;">
-  <li>Symantec AV</li>
-  <li>TrendMicro</li>
-</ul>
+
 <h3>CTI links</h3>
 <ul style="list-style-type: square;">
   <li>
