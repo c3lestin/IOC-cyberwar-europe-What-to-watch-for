@@ -87,6 +87,9 @@ The tension about the current war between Russia and Ukraine unfortunately is al
   <li>
     <a href="https://www.avertium.com/blog/cisa-warns-of-renewed-russian-threat-new-activity-seen-in-ukraine">Flash Notice: [New Malware] - CISA Warns of Renewed Russian Threat as New Activity is Seen in Ukraine (avertium.com)</a>
   </li>
+    <li>
+    <a href="https://socradar.io/what-you-need-to-know-about-russian-cyber-escalation-in-ukraine/">What You Need to Know About Russian Cyber Escalation in Ukraine</a>
+  </li>
 </ul>
 <p>
   <br/>
