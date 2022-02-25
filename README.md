@@ -90,6 +90,9 @@ The tension about the current war between Russia and Ukraine unfortunately is al
     <li>
     <a href="https://socradar.io/what-you-need-to-know-about-russian-cyber-escalation-in-ukraine/">What You Need to Know About Russian Cyber Escalation in Ukraine</a>
   </li>
+   <li>
+    <a href="  https://www.microsoft.com/security/blog/2022/01/15/destructive-malware-targeting-ukrainian-organizations/">Destructive malware targeting Ukrainian organizations</a>
+  </li>
 </ul>
 <p>
   <br/>
