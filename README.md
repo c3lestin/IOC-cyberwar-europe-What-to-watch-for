@@ -279,6 +279,200 @@ The tension about the current war between Russia and Ukraine unfortunately is al
   <li>Implement application control</li>
   <li>Make this a sustainable "steady state"</li>
 </ul>
+<h3>KQL - Queries</h3>
+<ac:structured-macro ac:macro-id="8545ee9e-2b6c-4dfe-bb50-b76882975785" ac:name="code" ac:schema-version="1">
+  <ac:parameter ac:name="language">yml</ac:parameter>
+  <ac:parameter ac:name="linenumbers">true</ac:parameter>
+  <ac:plain-text-body><![CDATA[{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match_phrase": {
+            "destination_ip.raw": "188.152.254.170"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "208.81.37.50"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "70.62.153.174"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "2.230.110.137"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "90.63.245.175"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "212.103.208.182"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "50.255.126.65"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "78.134.89.167"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "81.4.177.118"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "24.199.247.222"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "37.99.163.162"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "37.71.147.186"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "105.159.248.137"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "80.155.38.210"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "217.57.80.18"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "151.0.169.250"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "212.202.147.10"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "212.234.179.113"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "185.82.169.99"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "93.51.177.66"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "80.15.113.188"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "80.153.75.103"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "109.192.30.125"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "105.159.248.137"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "185.82.169.99"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "151.0.169.250"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "109.192.30.125"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "96.80.68.193"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "100.43.220.234"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "91.240.86.200"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "89.108.101.61"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "45.76.85.232"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "185.162.9.218"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "95.179.135.36"
+          }
+        },
+        {
+          "match_phrase": {
+            "destination_ip.raw": "91.240.86.200"
+          }
+        },
+         {
+          "match_phrase": {
+            "destination_ip.raw": "5.182.211.5"
+          }
+        }
+      ],
+      "minimum_should_match": 1
+    }
+  }
+}]]></ac:plain-text-body>
+</ac:structured-macro>
 <h2>Tenable available scan policies</h2>
 <ul>
   <li>CISA Alerts AA22-011A and AA22-047A</li>
