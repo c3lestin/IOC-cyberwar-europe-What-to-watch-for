@@ -200,6 +200,20 @@ The tension about the current war between Russia and Ukraine unfortunately is al
     </tr>
   </tbody>
 </table>
+<h2><p>Defense Technique </p></h2>
+<p>(SANS) The path to winning is to:</p>
+<ul>
+  <li>Patch</li>
+  <li>Tactical &amp; effective logging strategies</li>
+  <li>Outbound traffic control ( outbound &amp; geo-blocking)</li>
+  <li>Plan and test for rapid containment</li>
+  <li>Implement application control</li>
+  <li>Make this a sustainable "steady state"</li>
+</ul>
+<h2>Tenable available scan policies</h2>
+<ul>
+  <li>CISA Alerts AA22-011A and AA22-047A</li>
+</ul
 <p>
   <br/>
 </p>
