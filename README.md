@@ -200,6 +200,69 @@ The tension about the current war between Russia and Ukraine unfortunately is al
     </tr>
   </tbody>
 </table>
+
+<h3>
+  <span style="color: rgb(33,37,41);">(Buhtrap) (CERT-UA#3967)</span>
+</h3>
+<p class="ql-align-justify" style="text-align: justify;">
+  <em>Compromise indicators</em>
+</p>
+<p class="ql-align-justify" style="text-align: justify;">
+  <em>Files:</em>
+</p>
+<pre class="ql-syntax ql-align-justify">	1b5f0425dd76496e715bfa1aa76d306c    facebook.exe (LightRope)
+	42397efeaf1d971896cdc91ca024974d    lsass.exe (LiteManager)
+	9297e47fe1b256a8bbcb2b7a20844b2c    svchost.exe (LiteManager)
+	42397efeaf1d971896cdc91ca024974d    lsass.exe (LiteManager)
+	43a9a42b9a656d1ca39a3337a841ad5d    NTDSDumpEx.exe (NTDSDumpEx)
+	c1f47a14a958e2345ba929afa829c7e7    2021-07-30-08-55-07.xlsm
+	86926e56e4f6d854161066b5989a350e    output.exe (SourSnack)
+	3dcec8f6ba15e801b63b7c21a6b966fb    dnsoption.exe (LightRope_v2)
+	86f322fe52829b8b8094d053ed648a65    CDSSyncReporting.exe (dnscat)</pre>
+<p>
+  <br/>
+</p>
+<p>
+  <br/>
+</p>
+<p class="ql-align-justify" style="text-align: justify;">
+  <em>Network:</em>
+</p>
+<pre class="ql-syntax ql-align-justify">hxxps://mail.nais-gov[.]org/2021-07-30-08-55-07.xlsm	
+	widget.forum-pokemon[.]com
+	ns.ns2-dns[.]com
+	ns.ns3-dns[.]com
+	ns3-dns[.]com
+	ns2-dns[.]com
+	cs1.wpc-v0cdn[.]org
+	wpc-v0cdn[.]org
+	ipv6-wpnc[.]net
+	alt-2cdn[.]net
+	nais-gov[.]org
+	nais-gov[.]com
+	91[.]240.86.200
+	89[.]108.101.61
+	45[.]76.85.232
+	185[.]162.9.218
+	95[.]179.135.36
+	91[.]240.86.200:5651<br/>
+  <br/>
+  <em>Host:</em>
+</pre>
+<pre class="ql-syntax ql-align-justify">        C:\windows\system32\wbem\wmic.exe process where ExecutablePath='C:\\ProgramData\\lsass.exe' delete
+	C:\windows\system32\wbem\wmic.exe process where ExecutablePath='C:\\ProgramData\\svchost.exe' delete
+	C:\windows\system32\schtasks.exe /delete /tn "Network Security Update" /f
+	C:\windows\system32\schtasks.exe /create /sc onstart /tn "Network Security Update" /tr "C:\ProgramData\lsass.exe" /ru SYSTEM
+	%PROGRAMDATA%\lsass.exe
+	%PROGRAMDATA%\svchost.exe
+	%PROGRAMDATA%\config.xml
+	%PUBLIC%\output.exe
+	%APPDATA%\dnsoption.exe
+	%APPDATA%\Microsoft\Windows\CDSSyncReporting.exe</pre>
+<p>
+  <br/>
+</p>
+
 <h2><p>Defense Technique </p></h2>
 <p>(SANS) The path to winning is to:</p>
 <ul>
