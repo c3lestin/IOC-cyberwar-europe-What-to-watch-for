@@ -247,8 +247,11 @@ The tension about the current war between Russia and Ukraine unfortunately is al
 	95[.]179.135.36
 	91[.]240.86.200:5651<br/>
   <br/>
-  <em>Host:</em>
+  
 </pre>
+<p class="ql-align-justify" style="text-align: justify;">
+  <em>Host:</em>
+</p>
 <pre class="ql-syntax ql-align-justify">        C:\windows\system32\wbem\wmic.exe process where ExecutablePath='C:\\ProgramData\\lsass.exe' delete
 	C:\windows\system32\wbem\wmic.exe process where ExecutablePath='C:\\ProgramData\\svchost.exe' delete
 	C:\windows\system32\schtasks.exe /delete /tn "Network Security Update" /f
