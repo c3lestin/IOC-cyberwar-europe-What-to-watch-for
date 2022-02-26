@@ -472,6 +472,32 @@ The tension about the current war between Russia and Ukraine unfortunately is al
   }
 }
 ```
+<h2>MD5 Check with KQL</h2>
+
+```
+hashes_md5 : "bf24ade71a9054a58664fa993256e66f" or
+"50e5c6d8f1ee593abf2cb99c8c2d6a10" or
+"512e379a2b3b5f978dd203519971c66f" or
+"9d16715a9e8853058e67110b4dde6848" or
+"d87d5a6605df56c493116e2af3fde2e8" or
+"a8174e4e7b985c0a9dff7e6485ed9adc" or
+"a8174e4e7b985c0a9dff7e6485ed9adc" or 
+"db8cc8adc726c3567b639c84ecf41aa5" or
+"1b5f0425dd76496e715bfa1aa76d306c" or    
+"42397efeaf1d971896cdc91ca024974d" or    
+"9297e47fe1b256a8bbcb2b7a20844b2c" or    
+"42397efeaf1d971896cdc91ca024974d" or     
+"43a9a42b9a656d1ca39a3337a841ad5d" or    
+"c1f47a14a958e2345ba929afa829c7e7" or     
+"86926e56e4f6d854161066b5989a350e" or     
+"3dcec8f6ba15e801b63b7c21a6b966fb" or     
+"86f322fe52829b8b8094d053ed648a65" or
+"eb845b7a16ed82bd248e395d9852f467" or
+"a952e288a1ead66490b3275a807f52e5" or 
+"231b3385ac17e41c5bb1b1fcb59599c4" or
+"095a1678021b034903c85dd5acb447ad" 
+```
+
 <h2>Tenable available scan policies</h2>
 <ul>
   <li>CISA Alerts AA22-011A and AA22-047A</li>
