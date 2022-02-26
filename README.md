@@ -279,7 +279,7 @@ The tension about the current war between Russia and Ukraine unfortunately is al
   <li>Implement application control</li>
   <li>Make this a sustainable "steady state"</li>
 </ul>
-<h3>ELK - DSL Queries</h3>
+<h3>ELK - DSL filters</h3>
 
 ```
 {
