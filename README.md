@@ -81,6 +81,9 @@ The tension about the current war between Russia and Ukraine unfortunately is al
 
 <h3>CTI links</h3>
 <ul style="list-style-type: square;">
+	<li>
+    <a href="https://www.cisa.gov/uscert/ncas/alerts/2022">CISA.gov Alerts</a>
+  </li>
   <li>
     <a href="https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ukraine-wiper-malware-russia">Ukraine: Disk-wiping Attacks Precede Russian Invasion | Symantec Blogs (security.com)</a>
   </li>
