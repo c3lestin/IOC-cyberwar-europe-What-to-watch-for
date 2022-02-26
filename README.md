@@ -282,6 +282,7 @@ The tension about the current war between Russia and Ukraine unfortunately is al
 <h3>KQL - Queries</h3>
 
 ```
+{
   "query": {
     "bool": {
       "should": [
@@ -460,7 +461,7 @@ The tension about the current war between Russia and Ukraine unfortunately is al
             "destination_ip.raw": "91.240.86.200"
           }
         },
-         {
+        {
           "match_phrase": {
             "destination_ip.raw": "5.182.211.5"
           }
