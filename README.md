@@ -280,10 +280,8 @@ The tension about the current war between Russia and Ukraine unfortunately is al
   <li>Make this a sustainable "steady state"</li>
 </ul>
 <h3>KQL - Queries</h3>
-<ac:structured-macro ac:macro-id="8545ee9e-2b6c-4dfe-bb50-b76882975785" ac:name="code" ac:schema-version="1">
-  <ac:parameter ac:name="language">yml</ac:parameter>
-  <ac:parameter ac:name="linenumbers">true</ac:parameter>
-  <ac:plain-text-body><![CDATA[{
+
+```
   "query": {
     "bool": {
       "should": [
@@ -471,8 +469,8 @@ The tension about the current war between Russia and Ukraine unfortunately is al
       "minimum_should_match": 1
     }
   }
-}]]></ac:plain-text-body>
-</ac:structured-macro>
+}
+```
 <h2>Tenable available scan policies</h2>
 <ul>
   <li>CISA Alerts AA22-011A and AA22-047A</li>
