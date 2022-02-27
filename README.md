@@ -96,6 +96,9 @@ The tension about the current war between Russia and Ukraine unfortunately is al
    <li>
     <a href="https://www.microsoft.com/security/blog/2022/01/15/destructive-malware-targeting-ukrainian-organizations/">Destructive malware targeting Ukrainian organizations</a>
   </li>
+<li>
+    <a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-057a">Destructive malware targeting Ukrainian organizations - Alert (AA22-057A)</a>
+  </li>
 </ul>
 <p>
   <br/>
