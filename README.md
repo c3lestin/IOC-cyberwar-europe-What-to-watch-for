@@ -1,5 +1,5 @@
 # Europe Cyberwar: IoCs to watch for.
-The tension about the current war between Russia and Ukraine unfortunately is also affecting the IT Security World.  This Github page is being updated constantly with the IoCs (Indicator of Compromises) as they are being surfaced.
+This Github page is being updated constantly with new IoCs (Indicator of Compromises) as they are being surfaced.
 
 <p>This is purely informative.</p>
 
