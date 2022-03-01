@@ -4,6 +4,7 @@ This Github page is being updated constantly with new IoCs (Indicator of Comprom
 <p>This is purely informative.</p>
 
 
+
 <p>
   <br/>
 </p>
@@ -12,6 +13,323 @@ This Github page is being updated constantly with new IoCs (Indicator of Comprom
 <p>
   <br/>
 </p>
+
+<h2>
+  <strong>IsaacWiper: Data Wiper </strong>
+</h2>
+<p>New data wiper malware being observed </p>
+<p>
+  <span style="color: rgb(66,77,86);">Isaac has been observed  in<span> </span>
+  </span>
+  <strong>
+    <span style="color: rgb(66,77,86);">%programdata%</span>
+  </strong>
+  <span style="color: rgb(66,77,86);">
+    <strong> </strong>and<span> </span>
+  </span>
+  <strong>
+    <span style="color: rgb(66,77,86);">C:\Windows\System32</span>
+  </strong>
+  <span style="color: rgb(66,77,86);">
+    <span> </span>under the following filenames:</span>
+</p>
+<table>
+  <colgroup>
+    <col/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <p>
+          <span>clean.exe</span>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          <span>cl.exe</span>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          <span>cl64.dll</span>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          <span>cld.dll</span>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <p>
+          <span>cll.dll</span>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <span style="color: rgb(66,77,86);">IsaacWiper starts by enumerating the physical drives and calls<span> </span>
+  </span>
+  <span style="color: rgb(66,77,86);">DeviceIoControl</span>
+  <span style="color: rgb(66,77,86);">
+    <span> </span>with the <strong>IOCTL </strong>
+  </span>
+  <strong>
+    <span style="color: rgb(66,77,86);">IOCTL_STORAGE_GET_DEVICE_NUMBER</span>
+  </strong>
+  <span style="color: rgb(66,77,86);">
+    <strong> </strong>to get their device numbers.</span>
+</p>
+<p>
+  <br/>
+</p>
+<p>
+  <span style="color: rgb(66,77,86);">Isaac IoCs</span>
+</p>
+<table>
+  <colgroup>
+    <col/>
+    <col/>
+    <col/>
+    <col/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: left;">SHA-1</th>
+      <th style="text-align: left;">Filename</th>
+      <th style="text-align: left;">ESET detection name</th>
+      <th style="text-align: left;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span>912342F1C840A42F6B74132F8A7C4FFE7D40FB77</span>
+      </td>
+      <td>
+        <span>com.exe</span>
+      </td>
+      <td>Win32/KillDisk.NCV</td>
+      <td>HermeticWiper</td>
+    </tr>
+    <tr>
+      <td>
+        <span>61B25D11392172E587D8DA3045812A66C3385451</span>
+      </td>
+      <td>
+        <span>conhosts.exe</span>
+      </td>
+      <td>Win32/KillDisk.NCV</td>
+      <td>HermeticWiper</td>
+    </tr>
+    <tr>
+      <td>
+        <span>3C54C9A49A8DDCA02189FE15FEA52FE24F41A86F</span>
+      </td>
+      <td>
+        <span>c9EEAF78C9A12.dat</span>
+      </td>
+      <td>Win32/GenCBL.BSP</td>
+      <td>HermeticWizard</td>
+    </tr>
+    <tr>
+      <td>
+        <span>F32D791EC9E6385A91B45942C230F52AFF1626DF</span>
+      </td>
+      <td>
+        <span>cc2.exe</span>
+      </td>
+      <td>WinGo/Filecoder.BK</td>
+      <td>HermeticRansom</td>
+    </tr>
+    <tr>
+      <td>
+        <span>AD602039C6F0237D4A997D5640E92CE5E2B3BBA3</span>
+      </td>
+      <td>
+        <span>cl64.dll</span>
+      </td>
+      <td>Win32/KillMBR.NHP</td>
+      <td>IsaacWiper</td>
+    </tr>
+    <tr>
+      <td>
+        <span>736A4CFAD1ED83A6A0B75B0474D5E01A3A36F950</span>
+      </td>
+      <td>
+        <span>cld.dll</span>
+      </td>
+      <td>Win32/KillMBR.NHQ</td>
+      <td>IsaacWiper</td>
+    </tr>
+    <tr>
+      <td>
+        <span>E9B96E9B86FAD28D950CA428879168E0894D854F</span>
+      </td>
+      <td>
+        <span>clean.exe</span>
+      </td>
+      <td>Win32/KillMBR.NHP</td>
+      <td>IsaacWiper</td>
+    </tr>
+    <tr>
+      <td>
+        <span>23873BF2670CF64C2440058130548D4E4DA412DD</span>
+      </td>
+      <td>
+        <span>XqoYMlBX.exe</span>
+      </td>
+      <td>Win32/RiskWare.RemoteAdmin.RemoteExec.AC</td>
+      <td>Legitimate RemCom remote access tool</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  <br/>
+</p>
+<p>
+  <strong>Attack TTPs </strong>
+</p>
+<table>
+  <colgroup>
+    <col/>
+    <col/>
+    <col/>
+    <col/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Tactic</th>
+      <th style="text-align: left;">ID</th>
+      <th style="text-align: left;">Name</th>
+      <th style="text-align: left;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Resource Development</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1588/002" style="text-decoration: none;">T1588.002</a>
+      </td>
+      <td>Obtain Capabilities: Tool</td>
+      <td>Attackers used RemCom and potentially Impacket as part of their campaign.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1588/003" style="text-decoration: none;">T1588.003</a>
+      </td>
+      <td>Obtain Capabilities: Code Signing Certificates</td>
+      <td>Attackers acquired a code-signing certificate for their campaigns.</td>
+    </tr>
+    <tr>
+      <td>Initial Access</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1078/002/" style="text-decoration: none;">T1078.002</a>
+      </td>
+      <td>Valid Accounts: Domain Accounts</td>
+      <td>Attackers were able to deploy wiper malware through GPO.  </td>
+    </tr>
+    <tr>
+      <td rowspan="4">Execution</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1059/003" style="text-decoration: none;">T1059.003</a>
+      </td>
+      <td>Command and Scripting Interpreter: Windows Command Shell</td>
+      <td>Attackers used the command line during their attack (e.g., possible Impacket usage).</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1106" style="text-decoration: none;">T1106</a>
+      </td>
+      <td>Native API</td>
+      <td>Attackers used native APIs in their malware.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1569/002" style="text-decoration: none;">T1569.002</a>
+      </td>
+      <td>System Services: Service Execution</td>
+      <td>HermeticWiper uses a driver, loaded as a service, to corrupt data.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1047" style="text-decoration: none;">T1047</a>
+      </td>
+      <td>Windows Management Instrumentation</td>
+      <td>HermeticWizard attempts to spread to local computers using WMI.</td>
+    </tr>
+    <tr>
+      <td>Discovery</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1018/" style="text-decoration: none;">T1018</a>
+      </td>
+      <td>Remote System Discovery</td>
+      <td>HermeticWizard scans local IP ranges to find local machines.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Lateral Movement</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1021/002" style="text-decoration: none;">T1021.002</a>
+      </td>
+      <td>Remote Services: SMB/Windows Admin Shares</td>
+      <td>HermeticWizard attempts to spread to local computers using SMB.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1021/003/" style="text-decoration: none;">T1021.003</a>
+      </td>
+      <td>Remote Services: Distributed Component Object Model</td>
+      <td>HermeticWizard attempts to spread to local computers using<span> </span>
+        <span>WbemLocator</span>
+        <span> </span>to remotely start a new process via WMI.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Impact</td>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1561/002" style="text-decoration: none;">T1561.002</a>
+      </td>
+      <td>Disk Wipe: Disk Structure Wipe</td>
+      <td>HermeticWiper corrupts data in the system’s MBR and MFT.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1561/001" style="text-decoration: none;">T1561.001</a>
+      </td>
+      <td>Disk Wipe: Disk Content Wipe</td>
+      <td>HermeticWiper corrupts files in<span> </span>
+        <span>Windows</span>,<span> </span>
+        <span>Program Files</span>,<span> </span>
+        <span>Program Files(x86)</span>,<span> </span>
+        <span>PerfLogs</span>,<span> </span>
+        <span>Boot</span>,<span> </span>
+        <span>System Volume Information</span>, and<span> </span>
+        <span>AppData</span>.</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1485" style="text-decoration: none;">T1485</a>
+      </td>
+      <td>Data Destruction</td>
+      <td>HermeticWiper corrupts user data found on the system.  </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://attack.mitre.org/versions/v10/techniques/T1499/002" style="text-decoration: none;">T1499.002</a>
+      </td>
+      <td>Endpoint Denial of Service: Service Exhaustion Flood</td>
+      <td>By using DDoS attacks, the attackers made a number of government websites unvailable.  </td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>
   <strong>HermeticWiper:</strong> A Catastrophic Malware </h2>
 <p>This malware mainly target windows devices, <span style="color: rgb(96,96,128);">it uses a known and tested technique similar to the Lazarus Group little difference is that , this Wiper abuses a different driver  ( empntdrv[.]sys), it's way of attack is to corrupt the first 512 byte in the MBRs so the machine physical drives booting process can stop. This malware targets the financial, aviation, and IT services sector. </span>
