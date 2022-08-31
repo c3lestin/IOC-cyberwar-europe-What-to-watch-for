@@ -218,7 +218,7 @@ This Github page is being updated constantly with new IoCs (Indicator of Comprom
 <p>
   <br/>
 </p>
-<h1>Indicator of Compromise (IOCs) </h1>
+<h1>Indicator of Compromise (IOCs) - EUROPE RUSSIA </h1>
 <p>The following IOCs are being surfaced</p>
 <p>
   <br/>
