@@ -3,6 +3,216 @@ This Github page is being updated constantly with new IoCs (Indicator of Comprom
 
 <p>This is purely informative.</p>
 
+# Index
+
+* TOC
+{:toc}
+
+<p>
+  <br/>
+</p>
+<h2 style="text-align: left;">INDICATORS OF COMPROMISE RELATED TO RECENT CYBER ATTACK ON CISCO<br/>
+  <br/>
+</h2>
+<h3 style="text-align: left;">Hashes (SHA256) </h3>
+<p>
+  <span>184a2570d71eedc3c77b63fd9d2a066cd025d20ceef0f75d428c6f7e5c6965f3 </span>
+  <br/>
+  <span>2fc5bf9edcfa19d48e235315e8f571638c99a1220be867e24f3965328fe94a03 </span>
+  <br/>
+  <span>542c9da985633d027317e9a226ee70b4f0742dcbc59dfd2d4e59977bb870058d </span>
+  <br/>
+  <span>61176a5756c7b953bc31e5a53580d640629980a344aa5ff147a20fb7d770b610 </span>
+  <br/>
+  <span>753952aed395ea845c52e3037f19738cfc9a415070515de277e1a1baeff20647 </span>
+  <br/>
+  <span>8df89eef51cdf43b2a992ade6ad998b267ebb5e61305aeb765e4232e66eaf79a </span>
+  <br/>
+  <span>8e5733484982d0833abbd9c73a05a667ec2d9d005bbf517b1c8cd4b1daf57190 </span>
+  <br/>
+  <span>99be6e7e31f0a1d7eebd1e45ac3b9398384c1f0fa594565137abb14dc28c8a7f </span>
+  <br/>
+  <span>bb62138d173de997b36e9b07c20b2ca13ea15e9e6cd75ea0e8162e0d3ded83b7 </span>
+  <br/>
+  <span>eb3452c64970f805f1448b78cd3c05d851d758421896edd5dfbe68e08e783d18 </span>
+</p>
+<h3 style="text-align: left;">IP Addresses </h3>
+<p>
+  <span>104.131.30[.]201 </span>
+  <br/>
+  <span>108.191.224[.]47 </span>
+  <br/>
+  <span>131.150.216[.]118 </span>
+  <br/>
+  <span>134.209.88[.]140 </span>
+  <br/>
+  <span>138.68.227[.]71 </span>
+  <br/>
+  <span>139.177.192[.]145 </span>
+  <br/>
+  <span>139.60.160[.]20 </span>
+  <br/>
+  <span>139.60.161[.]99 </span>
+  <br/>
+  <span>143.198.110[.]248 </span>
+  <br/>
+  <span>143.198.131[.]210 </span>
+  <br/>
+  <span>159.65.246[.]188 </span>
+  <br/>
+  <span>161.35.137[.]163 </span>
+  <br/>
+  <span>162.33.177[.]27 </span>
+  <br/>
+  <span>162.33.178[.]244 </span>
+  <br/>
+  <span>162.33.179[.]17 </span>
+  <br/>
+  <span>165.227.219[.]211 </span>
+  <br/>
+  <span>165.227.23[.]218 </span>
+  <br/>
+  <span>165.232.154[.]73 </span>
+  <br/>
+  <span>166.205.190[.]23 </span>
+  <br/>
+  <span>167.99.160[.]91 </span>
+  <br/>
+  <span>172.56.42[.]39 </span>
+  <br/>
+  <span>172.58.220[.]52 </span>
+  <br/>
+  <span>172.58.239[.]34 </span>
+  <br/>
+  <span>174.205.239[.]164 </span>
+  <br/>
+  <span>176.59.109[.]115 </span>
+  <br/>
+  <span>178.128.171[.]206 </span>
+  <br/>
+  <span>185.220.100[.]244 </span>
+  <br/>
+  <span>185.220.101[.]10 </span>
+  <br/>
+  <span>185.220.101[.]13 </span>
+  <br/>
+  <span>185.220.101[.]15 </span>
+  <br/>
+  <span>185.220.101[.]16 </span>
+  <br/>
+  <span>185.220.101[.]2 </span>
+  <br/>
+  <span>185.220.101[.]20 </span>
+  <br/>
+  <span>185.220.101[.]34 </span>
+  <br/>
+  <span>185.220.101[.]45 </span>
+  <br/>
+  <span>185.220.101[.]6 </span>
+  <br/>
+  <span>185.220.101[.]65 </span>
+  <br/>
+  <span>185.220.101[.]73 </span>
+  <br/>
+  <span>185.220.101[.]79 </span>
+  <br/>
+  <span>185.220.102[.]242 </span>
+  <br/>
+  <span>185.220.102[.]250 </span>
+  <br/>
+  <span>192.241.133[.]130 </span>
+  <br/>
+  <span>194.165.16[.]98 </span>
+  <br/>
+  <span>195.149.87[.]136 </span>
+  <br/>
+  <span>24.6.144[.]43 </span>
+  <br/>
+  <span>45.145.67[.]170 </span>
+  <br/>
+  <span>45.227.255[.]215 </span>
+  <br/>
+  <span>45.32.141[.]138 </span>
+  <br/>
+  <span>45.32.228[.]189 </span>
+  <br/>
+  <span>45.32.228[.]190 </span>
+  <br/>
+  <span>45.55.36[.]143 </span>
+  <br/>
+  <span>45.61.136[.]207 </span>
+  <br/>
+  <span>45.61.136[.]5 </span>
+  <br/>
+  <span>45.61.136[.]83 </span>
+  <br/>
+  <span>46.161.27[.]117 </span>
+  <br/>
+  <span>5.165.200[.]7 </span>
+  <br/>
+  <span>52.154.0[.]241 </span>
+  <br/>
+  <span>64.227.0[.]177 </span>
+  <br/>
+  <span>64.4.238[.]56 </span>
+  <br/>
+  <span>65.188.102[.]43 </span>
+  <br/>
+  <span>66.42.97[.]210 </span>
+  <br/>
+  <span>67.171.114[.]251 </span>
+  <br/>
+  <span>68.183.200[.]63 </span>
+  <br/>
+  <span>68.46.232[.]60 </span>
+  <br/>
+  <span>73.153.192[.]98 </span>
+  <br/>
+  <span>74.119.194[.]203 </span>
+  <br/>
+  <span>74.119.194[.]4 </span>
+  <br/>
+  <span>76.22.236[.]142 </span>
+  <br/>
+  <span>82.116.32[.]77 </span>
+  <br/>
+  <span>87.251.67[.]41 </span>
+  <br/>
+  <span>94.142.241[.]194 </span>
+  <br/> </p>
+<h3 style="text-align: left;">Domains </h3>
+<p>
+  <span>cisco-help[.]cf </span>
+  <br/>
+  <span>cisco-helpdesk[.]cf </span>
+  <br/>
+  <span>ciscovpn1[.]com </span>
+  <br/>
+  <span>ciscovpn2[.]com </span>
+  <br/>
+  <span>ciscovpn3[.]com </span>
+  <br/>
+  <span>devcisco[.]com </span>
+  <br/>
+  <span>devciscoprograms[.]com </span>
+  <br/>
+  <span>helpzonecisco[.]com </span>
+  <br/>
+  <span>kazaboldu[.]net </span>
+  <br/>
+  <span>mycisco[.]cf </span>
+  <br/>
+  <span>mycisco[.]gq </span>
+  <br/>
+  <span>mycisco-helpdesk[.]ml </span>
+  <br/>
+  <span>primecisco[.]com </span>
+  <br/>
+  <span>pwresetcisco[.]com </span> <br/> </p>
+<h3 style="text-align: left;">Email Addresses </h3>
+<p>
+  <span>costacancordia[@]protonmail[.]com </span>
+</p>
 
 
 <p>
